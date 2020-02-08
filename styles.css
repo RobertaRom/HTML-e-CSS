@@ -1,0 +1,252 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFE5B4;
+}
+
+.name {
+  border: 2px solid black;
+  background-color: #FFE5B4;
+  width: 40%;
+  font-size: 4em;
+  justify-content: space-around;
+  display: flex;
+}
+
+.menu {
+  border: 2px solid black;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3em;
+  background-color: white;
+}
+
+.about{
+margin-left: 100px;
+}
+
+.header{
+  background-color: #FFE5B4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 540px;
+}
+
+.image {
+  display: flex;
+  width:1070px;
+  height: 540px;
+  margin-left: 0;
+  opacity: 0.5;
+}
+
+.io {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  width: 170px;
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 1.3em;
+}
+
+em, strong {
+  display: flex;
+}
+
+.download_1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  font-size: 1em;
+  margin-left: 8px;
+}
+
+ .social_1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 50px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.download_1>.button {
+  margin-top: 11px;
+}
+
+.about {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 190px;
+  font-size: 1.2em;
+}
+
+.presentazione {
+ width: 760px;
+ margin-left: 95px;
+ font-size: 1em;
+}
+
+.contenitore {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.educazione {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  font-size: 1.1em;
+}
+
+.esperienze {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  font-size: 1.1em;
+}
+
+.skills{
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.skills>h1 {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.skills>ul {
+  justify-content: center;
+  margin-left: 1px;
+  margin-top: 110px;
+  list-style:none;
+  font-size: 1.4em;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+hr{
+  size:3;
+  width: 50px
+}
+
+.footer{
+display: flex;
+background-color: white;
+height: 20px;
+width: 100%;
+}
+
+.contatti{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 100px;
+  height: 80px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.download {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hear {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+  margin-left: 100px;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: #5995DA;
+  border: none;
+  border-radius: 3px;
+  width: 150px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.social {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.facebook,
+.instagram,
+.linkedin {
+  width:15px;
+  display: flex;
+}
+
+.facebook {
+  margin-left: 50px;
+}
+
+.instagram {
+  margin-right: 50px;
+}
